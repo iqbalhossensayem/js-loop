@@ -2,6 +2,8 @@
 // let : we could be change 
 // var : var is also like let but it's old version, so we should not use it.
 
+
+// if else condition ...
 const amount = 50000;
 
 if (amount > 50000) {
@@ -27,3 +29,10 @@ if (amount > 50000) {
     
     
 }
+
+
+// array 
+let num =[12 , 34 ,56, 6, 7, 78];
+// index starts with 0 . ex: 0, 1, 2, 3, ..
+console.log(`Here will show index of an array : ${num[4]}`);
+console.log(`Here will show the length of the array : ${num.length}`);
